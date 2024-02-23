@@ -1,11 +1,11 @@
 {
   "name": "purelytics",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Permaweb analytics powered by ao with unmatched transparency, enduring data integrity, and user-focused privacy controls.",
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "publish_dist": "npm run build && cp ./package.json ./dist && cd ./dist/ && npm publish",
+    "publish_dist": "npm run build && cp ./README.md ./dist && cp ./package.json ./dist && cd ./dist/ && npm publish",
     "lint": "eslint . --fix"
   },
   "repository": {
