@@ -1,0 +1,33 @@
+{
+  "name": "purelytics-ao",
+  "version": "1.0.0",
+  "description": "Permaweb analytics powered by ao with unmatched transparency, enduring data integrity, and user-focused privacy controls.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./dist && npx tsc",
+    "start": "npm run build && node dist/index.js",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspfinc/Purelytics.git"
+  },
+  "keywords": [
+    "Permaweb",
+    "Arweave",
+    "Analytics",
+    "AO"
+  ],
+  "author": "Peter Farber <peter@capsl8.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sspfinc/Purelytics/issues"
+  },
+  "homepage": "https://github.com/sspfinc/Purelytics#readme",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.20",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}

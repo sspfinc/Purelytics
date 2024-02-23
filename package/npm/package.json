@@ -1,0 +1,17 @@
+{
+  "name": "purelytics",
+  "version": "$version",
+  "description": "Permaweb analytics powered by ao with unmatched transparency, enduring data integrity, and user-focused privacy controls.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspfinc/Purelytics.git"
+  },
+  "keywords": ["Permaweb", "Arweave", "Analytics", "AO"],
+  "author": "Peter Farber <peter@capsl8.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sspfinc/Purelytics/issues"
+  },
+  "homepage": "https://github.com/sspfinc/Purelytics#readme"
+}

@@ -80,3 +80,5 @@ class Purelytics {
 }
 
 const purelytics = new Purelytics();
+//sed -i '' 's/$version/'"${BUILD_NUMBER}"'/g' dist/README.md
+// sed -i '' 's/$version/'"${BUILD_NUMBER}"'/g' dist/package.json
