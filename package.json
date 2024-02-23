@@ -1,6 +1,6 @@
 {
   "name": "purelytics",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Permaweb analytics powered by ao with unmatched transparency, enduring data integrity, and user-focused privacy controls.",
   "main": "index.js",
   "scripts": {
