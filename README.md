@@ -3,9 +3,5 @@ Permaweb analytics powered by ao with unmatched transparency, enduring data inte
 
 ## Usage
 ```html
-<script src="https://unpkg.com/purelytics@1.2.0/index.js"></script>
-```
-
-## License
-MIT
+<script src="https://unpkg.com/purelytics@1.3.0/index.js"></script>
 ```
