@@ -4,8 +4,7 @@
   "description": "Permaweb analytics powered by ao with unmatched transparency, enduring data integrity, and user-focused privacy controls.",
   "main": "src/index.ts",
   "scripts": {
-    "build": "rimraf ./dist && tsc && npm run copy",
-    "copy": "cp ./npm/* ./dist && npm run update_version",
+    "build": "rimraf ./dist && tsc && npm run update_version",
     "update_version": "./scripts/update_versions.sh",
     "publish_dist": "npm run build && cd ./dist/ && npm publish",
     "lint": "eslint . --fix"
